@@ -1,0 +1,111 @@
+   body {
+       background-image: url(./BouleCristal.jpg);
+       background-size: cover;
+       background-attachment: scroll;
+       opacity: 75%;
+       font-family: "Dosis";
+       font-weight: bolder;
+       text-shadow: black 1px 1px;
+   }
+   
+   h1 {
+       border: 5px solid rgba(0, 0, 0, 0);
+       margin-top: 15px;
+       margin-left: 25%;
+       margin-right: 25%;
+       font-size: 30px;
+       text-align: center;
+       color: rgba(0, 0green, 0blue, 0.5alpha);
+       border-radius: 15px;
+       box-shadow: black 2px 4px;
+       text-shadow: black 1px 1px;
+   }
+   
+   header navbar menu span {
+       display: flex;
+       flex-direction: row;
+       font-weight: 18xp;
+   }
+   
+   .menu {
+       border: 5px solid rgba(255, 255, 255, 0);
+       margin-top: 15px;
+       margin-left: 0.1%;
+       margin-right: 0.1%;
+       font-size: 20px;
+       text-align: center;
+       color: rgba(0, 0green, 0blue, 0.5alpha);
+       border-radius: 15px;
+       box-shadow: black 2px 4px;
+       text-shadow: black 1px 1px;
+       display: block;
+   }
+   
+   .min {
+       border: 2px solid rgba(255, 255, 255, 0);
+       margin-top: 15px;
+       margin-left: 05%;
+       margin-right: 75%;
+       font-size: 20px;
+       text-align: center;
+       color: rgba(0, 0green, 0blue, 0.5alpha);
+       border-radius: 15px;
+       box-shadow: black 2px 3px;
+       text-shadow: black 1px 1px;
+       position: relative;
+       text-decoration: none;
+   }
+   
+   a {
+       text-decoration: none;
+       color: azure;
+   }
+   
+   a:hover {
+       color: gold;
+   }
+   
+   .container {
+       width: 700px;
+       border: 5px solid rgb rgba(255, 255, 255, 0);
+       border-radius: .5em;
+       padding: 10px;
+       box-shadow: 2px 3px;
+       text-shadow: 1px 1px;
+       margin-top: 15px;
+       margin-left: 20%;
+       margin-right: 25%;
+   }
+   
+   .container:hover {
+       width: 700px;
+       border: 5px solid rgb(20, 17, 20);
+       border-radius: .5em;
+       padding: 10px;
+       background-color: rgb(0, 0, 0);
+       box-shadow: 2px 3px;
+       text-shadow: 1px 1px;
+       margin-top: 15px;
+       margin-left: 20%;
+       margin-right: 25%;
+       display: inline-block;
+       color: darkgreen
+   }
+   
+   fieldset {
+       border: 5px solid rgba(255, 255, 255, 0);
+       box-shadow: black 2px 3px;
+       border-radius: 15px;
+   }
+   
+   fieldset:hover {
+       background-color: none;
+   }
+   
+   legend {
+       color: azure;
+   }
+   
+   footer {
+       display: none;
+   }
