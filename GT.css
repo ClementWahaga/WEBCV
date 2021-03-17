@@ -62,38 +62,3 @@ section:hover {
     text-shadow: 1px 1px;
     transition-duration: 0.5s;
 }
-
-
-/*.menu {
-    display: grid;
-    grid-template-columns: repeat(3, 210px);
-    justify-content: center;
-    justify-items: center;
-    grid-gap: 100px;
-    border: 5px solid rgba(255, 255, 255, 0);
-    margin-top: 15px;
-    margin-left: 0.1%;
-    margin-right: 0.1%;
-    font-size: 20px;
-    text-align: center;
-    color: rgba(0, 0green, 0blue, 0.5alpha);
-    border-radius: 15px;
-    box-shadow: black 2px 4px;
-    text-shadow: black 1px 1px;
-}*/
-
-
-/*.container {
-    column-gap: 50px;
-    width: 10%;
-    border: 5px solid rgb rgba(255, 255, 255, 0);
-    border-radius: .5em;
-    padding: 10px;
-    box-shadow: 2px 3px;
-    text-shadow: 1px 1px;
-    margin-top: 15px;
-    margin-left: 20%;
-    margin-right: 25%;
-    justify-content: center;
-    justify-items: center;
-}*/
