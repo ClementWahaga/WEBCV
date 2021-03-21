@@ -2,6 +2,7 @@ body {
     display: grid;
     grid-template-columns: repeat(6, 210px);
     background-image: url(./BouleCristal.jpg);
+    /*background: linear-gradient(#B6C0C5, #212121);*/
     background-size: cover;
     background-attachment: scroll;
     opacity: 79%;
@@ -33,7 +34,34 @@ legend {
 }
 
 footer {
-    display: none;
+    grid-template-columns: repeat(1, 1fr);
+    border: 5px solid rgba(255, 255, 255, 0);
+}
+
+footer>div {
+    grid-template-columns: repeat(1, 1fr);
+    display: grid;
+    justify-content: left;
+    justify-items: left;
+    color: white;
+    grid-gap: 3px;
+}
+
+footer>div>i:hover {
+    color: darkgreen;
+    background-color: rgb(0, 0, 0);
+    box-shadow: 2px 3px;
+    text-shadow: 1px 1px;
+    transition-duration: 0.5s;
+}
+
+i>div {
+    transition: margin-right 2s, color 1s;
+}
+
+.w3-progressbar {
+    color: black;
+    width: 39%;
 }
 
 i {
@@ -62,3 +90,5 @@ section:hover {
     text-shadow: 1px 1px;
     transition-duration: 0.5s;
 }
+
+@media screen and(all) {}
