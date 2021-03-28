@@ -1,14 +1,14 @@
 body {
     display: grid;
     grid-template-columns: repeat(6, 210px);
-    background-image: url(./BouleCristal.jpg);
+    background-image: url(./pics/Intricado.jpg);
     /*background: linear-gradient(#B6C0C5, #212121);*/
     background-size: cover;
     background-attachment: scroll;
     opacity: 79%;
     font-family: "Dosis";
     font-weight: bolder;
-    text-shadow: black 1px 1px;
+    text-shadow: white 1px 1px;
 }
 
 h1 {
@@ -19,6 +19,11 @@ section {
     display: grid;
     justify-content: center;
     justify-items: center;
+}
+
+#container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
 }
 
 .contour {
@@ -33,13 +38,18 @@ legend {
     border-radius: 15px;
 }
 
+#bottom {
+    display: grid;
+    grid-template-columns: 1, 1fr;
+}
+
 footer {
     grid-template-columns: repeat(1, 1fr);
     border: 5px solid rgba(255, 255, 255, 0);
 }
 
 footer>div {
-    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(1, 1fr);
     display: grid;
     justify-content: left;
     justify-items: left;
