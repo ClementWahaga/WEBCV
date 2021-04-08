@@ -61,6 +61,9 @@ legend {
 i {
     font-size: 43px;
 }
+p{
+    display: none;
+}
 
 a {
     marker: none;
@@ -86,4 +89,9 @@ section:hover {
     transition-duration: 0.5s;
 }
 
-@media screen and(all) {}
+@media screen and (max-width: 372px) {
+    #container{
+       
+        grid-template-columns: repeat(1, 1fr);
+    }  
+}
