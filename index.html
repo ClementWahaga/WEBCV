@@ -21,13 +21,12 @@
 
 
 
-    <nav class="navbar navbar-expand-xxl navbar-dark bg-dark">
-        <div class="container-sm">
-            <a class="navbar-brand" href="./forms.html">contact me</a>
-
+    <nav >
+        <div >
+            <a href="./forms.html" id="nav">contact me</a>
         </div>
-
     </nav>
+
     <div class="back"><span class="contour">mind & feeling developer</span>
         <div id="bottom">
 
@@ -92,14 +91,23 @@
         </div>
 
         <script>
-          var contenant = document.getElementsByClassName("container")
-          var push =document.querySelector(".menu")
-          push.addEventListener('click', dpl)
+          var contenant = document.querySelectorAll(".container")
+          console.log(contenant)
+          var push =document.querySelectorAll(".menu")
           console.log(push)
+          push.addEventListener('click', dpl)
+    
 
+             function dpl(){
+              
+             for (var i = 0; i < push.length; i++){
+             
+                push.contenant.style.display = 'block'
+             }
+             console.log( i < push.length)
 
-          function dpl(){
-                contenant.style.display = 'block'
+            
+                
 
             };
             

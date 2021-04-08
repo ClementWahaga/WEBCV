@@ -1,16 +1,19 @@
 body {
     display: grid;
-    background: linear-gradient(#B6C0C5, #212121);
+    background: linear-gradient(#6c8591, #5172ba);
     background-size: cover;
-    background-attachment: scroll;
+    background-attachment: fixed;
     opacity: 79%;
     font-family: "Dosis";
     font-weight: bolder;
     text-shadow: white 1px 1px;
+    
 }
 
-#nav {
+nav {
     text-align: right;
+    height: 60px;
+    margin-right: 15px;
 }
 
 #icon {
@@ -35,7 +38,9 @@ section {
     justify-content: center;
     justify-items: center;
 }
-
+.menu{
+    cursor: pointer;
+}
 #container {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -69,6 +74,7 @@ a {
     marker: none;
     text-decoration: none;
     color: black;
+    font-size: 25px;
 }
 
 a:hover {
