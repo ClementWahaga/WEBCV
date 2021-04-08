@@ -1,12 +1,14 @@
 body {
     display: grid;
-    background: linear-gradient(#6c8591, #5172ba);
+    background: linear-gradient(#1a465c, #551138);
     background-size: cover;
     background-attachment: fixed;
     opacity: 79%;
     font-family: "Dosis";
     font-weight: bolder;
     text-shadow: white 1px 1px;
+    margin-left: 10px;
+    margin-right: 10px;
     
 }
 
@@ -14,6 +16,7 @@ nav {
     text-align: right;
     height: 60px;
     margin-right: 15px;
+    font-size: 20px;
 }
 
 #icon {
@@ -27,6 +30,7 @@ nav {
     background-size: cover;
     justify-items: center;
     text-align: center;
+    border-radius: 5px 5px;
 }
 
 h1 {
@@ -74,7 +78,7 @@ a {
     marker: none;
     text-decoration: none;
     color: black;
-    font-size: 25px;
+    
 }
 
 a:hover {
@@ -95,9 +99,18 @@ section:hover {
     transition-duration: 0.5s;
 }
 
-@media screen and (max-width: 372px) {
+@media screen and (max-width: 380px) {
+    body{
+        max-width: 100%;
+        background-image: url(./pics/Intricado.jpg);
+    }
     #container{
        
         grid-template-columns: repeat(1, 1fr);
-    }  
+       
+    } 
+    a{
+         display:none
+    } 
+   
 }
