@@ -7,9 +7,7 @@ body {
     font-family: "Dosis";
     font-weight: bolder;
     text-shadow: white 1px 1px;
-    margin-left: 10px;
-    margin-right: 10px;
-    
+    margin: 10px;
 }
 
 nav {
@@ -42,9 +40,11 @@ section {
     justify-content: center;
     justify-items: center;
 }
-.menu{
+
+.menu {
     cursor: pointer;
 }
+
 #container {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -68,9 +68,10 @@ legend {
 }
 
 i {
-    font-size: 43px;
+    font-size: 30px;
 }
-p{
+
+p {
     display: none;
 }
 
@@ -78,7 +79,6 @@ a {
     marker: none;
     text-decoration: none;
     color: black;
-    
 }
 
 a:hover {
@@ -100,17 +100,16 @@ section:hover {
 }
 
 @media screen and (max-width: 380px) {
-    body{
+    body {
         max-width: 100%;
-        background-image: url(./pics/Intricado.jpg);
     }
-    #container{
-       
+    .back {
+        background-image: url(./pics/IntricadoM.jpg);
+    }
+    #container {
         grid-template-columns: repeat(1, 1fr);
-       
-    } 
-    a{
-         display:none
-    } 
-   
+    }
+    a {
+        display: none
+    }
 }

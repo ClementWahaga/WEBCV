@@ -21,8 +21,8 @@
 
 
 
-    <nav >
-        <div >
+    <nav>
+        <div>
             <a href="./forms.html" id="nav"><i class="fas fa-pencil-alt"></i>contact me</a>
         </div>
     </nav>
@@ -51,7 +51,7 @@
                         <h2 class="menu">Présentation</h2><i class="fas fa-user-circle"></i>
                     </legend>
                     <p class="container">WAHAGA CLEMENT <br> Adresse :364Ter rte de la Nondoué,Dumbea ,98835 <br> Téléphone :+687872831 <br> c.wahaga@cci-formation.nc</p>
-                    
+
                 </fieldset>
             </section>
             <section>
@@ -91,35 +91,37 @@
         </div>
 
         <script>
-          var contenant = document.querySelectorAll(".container")
-          console.log(contenant)
-          var push =document.querySelectorAll(".menu")
-          console.log(push)
-          push.addEventListener('click', dpl)
-    
+            var contenant = document.querySelectorAll(".container")
+            console.log(contenant)
+            var push = document.querySelectorAll(".menu")
+            console.log(push)
+            push.addEventListener('click', dpl)
 
-             function dpl(){
-              
-             for (var i = 0; i < push.length; i++){
-             
-                contenant.style.display = 'block'
-             }
-             console.log( i < push.length)
 
-            
-                
+            function dpl() {
+
+                for (var i = 0; i < push.length; i++) {
+                    if (push[0] == true) {
+                        contenant[0].style.display = 'block'
+                    }
+                    if (push[1] == true) {
+                        contenant[1].style.display = 'block'
+                    }
+                    if (push[2] == true) {
+                        contenant[2].style.display = 'block'
+                    }
+                    if (push[3] == true) {
+                        contenant[3].style.display = 'block'
+                    }
+
+
+                }
+                console.log(i < push.length)
+
+
+
 
             };
-            
-             
-            
-
-
-          
-             
-
-
-
         </script>
     </body>
 
