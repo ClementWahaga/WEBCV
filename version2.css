@@ -1,23 +1,74 @@
-*{
-    margin:0;
-
+* {
+    margin: 0;
 }
-body{
+
+body {
     background-color: #333;
     display: grid;
-    grid-template-columns: repeat(5,1fr);
-    gap:10px;
+    grid-template-columns: 1, 1fr;
     justify-items: center;
-    
 }
-div{
-    
-    width: 207px;
-    height: 336px;
-    border-radius: 100px;
-    background:linear-gradient(#4844 , #485);
 
+
+main {
+    margin-top: 15%;
 }
-@media screen and  {
-    
+
+.black{
+    width: 100px;
+    height: 200px;
+    border-radius: 100px;
+    border: 2px solid black;
+    transition: width 1s, height 1s, background-color 1s, transform 1s;
+    box-shadow: 2px 4px rgb(16, 223, 68);
+    opacity: 88%;
+}
+
+.int {
+    width: 200px;
+    height: 100px;
+    border-radius: 100px;
+    border: 2px solid black;
+    transition: width 2s, height 2s, background-color 2s, transform 2s;
+    box-shadow: 2px 4px black;
+    opacity: 88%;
+}
+
+.red {
+    margin-top: 100px;
+    width: 200px;
+    height: 100px;
+    border-radius: 100px;
+    border: 2px solid black;
+    transition: width 2s, height 2s, transform 2s;
+    box-shadow: 2px 4px red;
+    opacity: 88%;
+}
+
+.yellow {
+    width: 100px;
+    height: 200px;
+    margin-left: 100px;
+    margin-top: -100px;
+    border-radius: 100px;
+    border: 2px solid black;
+    transition: width 2s, height 2s, transform 2s;
+    box-shadow: 2px 4px yellow;
+    opacity: 88%;
+}
+
+.int:hover {
+    transform: rotateY(360deg) rotateX(180deg) rotateZ(90deg);
+}
+
+.black:hover {
+    transform: rotateY(180deg) rotateX(360deg) rotateZ(90deg);
+}
+
+.red:hover {
+    transform: rotateZ(360deg) rotateY(180deg) rotateY(360deg);
+}
+
+.yellow:hover {
+    transform: rotateZ(180deg)  rotateX(180deg) rotateY(180deg)0 ;
 }
