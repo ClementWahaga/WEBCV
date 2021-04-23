@@ -1,6 +1,7 @@
 body {
     display: grid;
-   background-color: #333;
+   /*background-color: #333;*/
+   background: linear-gradient(#0a3348,#551138);
     background-size: contain;
     background-attachment:fixed;
     background-repeat: no-repeat;
@@ -144,7 +145,7 @@ i:hover{
     width: 100px;
     height: 200px;
     margin-left: 100px;
-    margin-top: -100px;
+    margin-top: -104px;
     border-radius: 100px;
     border: 2px solid black;
     transition: width 2s, height 2s, transform 2s;
@@ -153,11 +154,12 @@ i:hover{
 }
 
 .int:hover {
-    transform: rotateY(360deg) rotateX(180deg) rotateZ(90deg);
+    /*transform: rotateY(360deg) rotateX(180deg) rotateZ(90deg);*/
+    transform: rotateZ(360deg) rotateY(180deg) rotateY(360deg);
 }
 
 .black:hover {
-    transform: rotateY(180deg) rotateX(360deg) rotateZ(90deg);
+    transform: rotateY(180deg) rotateX(360deg) rotateZ(180deg);
 }
 
 .red:hover {
@@ -165,7 +167,7 @@ i:hover{
 }
 
 .yellow:hover {
-    transform: rotateZ(180deg)  rotateX(180deg) rotateY(180deg)0 ;
+    transform: rotateZ(180deg)  rotateX(360deg) rotateY(180deg) ;
 }
 
 @media screen and (max-width: 380px) {
