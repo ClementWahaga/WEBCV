@@ -42,7 +42,7 @@ main {
 }
 
 .menu {
-    line-height: 55px;
+    line-height: 25px;
     cursor: pointer;
 }
 
@@ -51,7 +51,7 @@ main {
     grid-template-columns: repeat(4, 1fr);
     justify-items: center;
     justify-content: center;
-    text-align: center;
+    text-align: left;
     margin: 40px 20px;
     gap: 20px;
 }
